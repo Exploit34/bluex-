@@ -1,0 +1,554 @@
+@media screen and (max-width:1200px){
+    
+    .phonePng {
+        height: 450px;
+        margin-bottom: 11%;
+        margin-left: 115px;
+    }
+    
+    .product {
+        padding-top: 15%;
+        font-size: 70px;
+        margin-right: 160px;
+    }
+    
+    .productPage {
+        display: flex;
+        justify-content: center;
+        padding-left: 16%;
+        font-size: 24px;
+        color: aliceblue;
+        padding-top: 10%;
+    }
+    
+    .bordeBut {
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    
+    .laptop {
+        height: 260px;
+        padding-left: 280px;
+        margin-right: -400px;
+    }
+    
+    .divLadoLaptop {
+        width: 300px;
+        padding-right: 138px;
+        padding-bottom: 20px;
+        margin-right: 258px;
+    }
+    
+    .h4planPrincing {
+        font-size: 390%;
+        height: 100px;
+    }
+    
+    .ParrafoLoren {
+        width: 1030px;
+        font-size: 155%;
+    }
+    
+    .sec3 {
+        height: 300px;
+    }
+    
+    .footer {
+        height: 70px;
+    }
+}
+
+/* ---------------------------------------------------------- */
+@media screen and (max-width: 768px) and (max-width: 900px) {
+
+*{
+    margin: 0%;
+}
+
+header{
+    width:100%;
+    height: 70px;
+    align-items: center;
+}
+
+.imglogo{
+    height: 20%;
+}
+
+ul li a{
+    font-size: 15px;
+    padding-left:  10px;
+}
+
+.sec {
+    background-color: #2E2550;
+    width: 50%;
+    height: 450px;
+    float: left;
+}
+
+.sec1{
+    width: 50%;
+    height: 450px;
+}
+
+.sec2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: -6px;
+}
+
+.product {
+    padding-top: 20%;
+    font-size: 50px;
+    margin-left: 25px;
+}
+
+.productPage{
+    padding-left: 10%;
+    font-size: 20px;
+    padding-top: 4%;
+}
+
+.bordeBut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 57px;
+    width: 60%;
+    margin-left: 61px;
+  }
+
+aside{
+    height: 450px;
+    width: 50%;
+    background-image: url(/imagenes/Canva-Withered-Leaves-Photo.jpg);
+    background-size: 184%;
+}
+
+.phonePng {
+    height: 290px;
+    margin-bottom: 20%;
+    margin-left: 51px;
+}
+
+.Fonction {
+    font-size: 339%;
+}
+
+.laptop {
+    padding-right: 538px;
+    margin-right: 358px;
+}
+
+.imglaptop{
+    height: 150px;
+}
+
+.Alphascreenshot {
+    font-size: 30px;
+    height: 13px;
+}
+
+.h4planPrincing{
+    font-size: 300%;
+    height: 80px;
+    width: 100%;
+}
+
+.sec4{
+    width: 100%;
+    height: 1030px;
+    flex-wrap: wrap;
+}
+
+.cont2{
+    height: 500px;
+    width: 270px;
+}
+
+.divLadoLaptop {
+    width: 390px;
+    padding-right: 0px;
+    margin-left: -830px;
+    margin-top: -0px;
+}
+
+.buttonSub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    width: 268px;
+    height: 51px;
+    margin-top: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 27px;
+}
+
+.textocreenshot {
+    margin-bottom: 5%;
+    margin-top: 10%;
+    height: 45px;
+}
+
+.ParrafoLoren {
+    width: 900px;
+    font-size: 130%;
+}
+
+.sec3 {
+    height: 220px;
+}
+}
+
+/* ---------------------------------------------------------- */
+
+@media screen and (max-width: 600px) and (max-width: 800px) {
+
+body{
+    width: 100%;
+}
+
+*{
+    margin: 0%;
+}
+
+header{
+    width: 100%;
+    background-color: #1E172F;
+    height:140px;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.nav {
+    display: flex;
+    margin-left: 45px;
+}
+
+.imglogo{
+    height: 100%;
+    justify-content: space-between;
+}
+
+ul li a{
+    font-size: 15px;
+    padding-left:  10px;
+    display: flex;
+}
+
+.sec1{
+    width: 50%;
+    height: 450px;
+    margin: 0%;
+}
+
+.product {
+    padding-top: 35%;
+    font-size: 200%;
+    margin-left: 30px;
+}
+
+.productPage{
+    padding-left: 10%;
+    font-size: 15px;
+    padding-top: 4%;
+}
+
+.bordeBut{
+    height: 60px;
+    width:70%;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+aside{
+    height: 450px;
+    background-image: url(/imagenes/Canva-Withered-Leaves-Photo.jpg);
+    background-size: 184%;
+}
+
+.phonePng {
+    height: 292px;
+    margin-bottom: 27%;
+    margin-left: 45px;
+}
+
+.Fonction {
+    font-size: 328%;
+    height: 10px;
+    padding-top: 75px;
+    right: 12px;
+}
+
+.sec2{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 900px;
+}
+
+.sec3 {
+    height: 250px;
+}
+
+.laptop {
+    height: 125px;
+    margin-bottom: 15%;
+    margin-left: 615px;
+}
+
+.imglaptop{
+    height: 150%;
+}
+
+.h4planPrincing {
+    font-size: 395%;
+    height: 77px;
+    width: 100%;
+}
+
+.textocreenshot {
+    font-size: 150%;
+    height: 192px;
+}
+
+.Marketing{
+  font-size: 150%;
+}
+
+.icono{
+    font-size: 140%;
+}
+
+.h4plansPrincing{
+    font-size: 400%;
+    height: 90px;
+    width: 100%;
+}
+
+.ParrafoLoren{
+    font-size: 120%;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.sec4{
+    width: 100%;
+    height: 1820px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont2 {
+    height: 584px;
+    width: 300px;
+    margin-bottom: 3px;
+    margin-top: 2px;
+    font-size: 20px;
+  }
+
+.cont3{
+    height: 600px;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.cont1{
+    height: 550px;
+    width: 300px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.buttonSub{
+    width: 300px;
+}
+
+.buttonSub2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    width: 270px;
+    height: 98px;
+    margin-top: 85px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.divLadoLaptop {
+    width: 270px;
+    padding-left: 118px;
+    padding-bottom: 0px;
+    margin-left: 217px;
+}
+
+.footer {
+    height: 60px;
+}
+
+.Alphascreenshot {
+    font-size: 30px;
+    height: 25px;
+}
+}
+
+/* ---------------------------------------------------------- */
+@media screen and (max-width: 480px) and (max-width: 550px){
+
+body{
+    width: 100%;
+}
+    
+*{
+    margin: 0%;
+}
+
+.nav {
+    display: flex;
+    margin-left: -14px;
+}
+
+.phonePng {
+    height: 290px;
+    margin-bottom: 30%;
+    margin-left: 40px;
+}
+
+.bordeBut {
+    height: 63px;
+    width: 85%;
+    margin-left: 6%;
+    margin-top: 20%;
+}
+
+.productPage {
+    padding-left: 7%;
+    font-size: 19px;
+    padding-top: 15%;
+}
+
+.product {
+    padding-top: 19%;
+    font-size: 280%;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.Fonction {
+    font-size: 328%;
+    height: 0px;
+    padding-top: 100px;
+}
+
+.sec2 {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   margin-top: 130px;
+}
+
+.divLadoLaptop {
+    width: 211px;
+    padding-right: 64px;
+    margin-top: 96px;
+}
+
+.ParrafoLoren {
+    font-size: 125%;
+}
+
+.laptop {
+    height: 124px;
+}
+
+.h4planPrincing {
+    font-size: 380%;
+    height: 77px;
+    width: 100%;
+}
+
+.Alphascreenshot {
+    font-size: 184%;
+    height: 34px;
+}
+
+.textocreenshot{
+    height: 180px;
+    width: 300px;
+}
+
+.Marketing {
+    font-size: 150%;
+}
+}
+
+/* ---------------------------------------------------------- */
+@media screen and (max-width: 360px) and (max-width: 400px) {
+
+*{
+    margin: 0%;
+}
+
+body{
+    width: 100%;
+}
+
+.button {
+    margin: -75px;
+    margin-left: -125px;
+}
+
+.nav {
+    margin-left: -135px;
+    margin-top: -25px;
+    padding-left: 125px;
+}
+
+.product {
+    padding-top: 15%;
+    font-size: 270%;
+    margin-top: 25px;
+    margin-left: 95px;
+}
+
+.phonePng {
+    height: 300px;
+    margin-bottom: 40%;
+    margin-left: 15px;
+}
+
+.h4planPrincing {
+    font-size: 360%;
+    height: 160px;
+    width: 100%;
+}
+
+.ParrafoLoren {
+    font-size: 100%;
+    height: 200px;
+}
+
+.Fonction {
+    font-size: 328%;
+    height: 0px;
+    padding-top: 90px;
+}
+
+.laptop {
+    height: 110px;
+    margin-top: -155px;
+}
+
+.divLadoLaptop {
+    width: 225px;
+    margin-top: 35px;
+    padding-right: 120px;
+}
+}

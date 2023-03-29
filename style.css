@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Tilt+Warp&display=swap');
+
+*{
+    margin: 0%;
+}
+
+header{
+    background-color:#1E172F;
+    display: flex;
+    justify-content: space-around;
+}
+.nav{
+    display: flex;
+}
+
+ul {
+    display: flex;
+}
+
+ul li{
+    list-style:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li a{
+    color:#635E6E;
+    text-decoration: none;
+    display: flex;
+    padding-right: 20px;
+    font-size: 20px;
+    padding-left:  20px;
+}
+ul li a:hover{
+    color: aliceblue;
+    cursor: help;
+
+}
+.button{
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to left,#087CD5,#8540D5);
+    color: aliceblue;
+}
+
+.sec{
+    background-color:#2E2550;
+    width: 50%;
+    height: 600px;
+    float: left;
+
+}
+
+.product{
+    font-family: 'Tilt Warp', cursive;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    font-size: 70px;
+}
+
+.productPage{
+    display: flex;
+    justify-content: center;
+    padding-left: 30%;
+    font-size: 23px;
+    color: aliceblue;
+    padding-top: 4%;
+}
+
+.bordeBut{
+    border-style:solid;
+    border-color: #544D6E;
+    border-radius: 8px;
+    height: 60px;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 6%;
+}
+
+.ButtonDowload{
+    height: 70%;
+    width: 100%;
+    border-radius: 5px;
+    border-style: none;
+    margin-left: 5px;
+    color: #F553A5;
+}
+
+.Feature{
+    height: 70%;
+    width: 100%;
+    margin-left: 3%;
+    border-radius: 5px;
+    border-color:aliceblue;
+    color: aliceblue;
+    margin-right: 5px;
+    background-color: transparent;
+}
+
+aside{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    height: 600px;
+    background-image: url(/imagenes/Canva-Withered-Leaves-Photo.jpg);
+    background-size: 160%;
+    width: 50%;
+}
+
+.phonePng{
+    height: 450px;
+    margin-bottom: 10%;
+
+}
+
+.sec2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.Fonction{
+    display: flex;
+    justify-content: center;
+    font-size: 400%;
+    color: #F41486;
+    margin-top: 2%;
+    height: 150px;
+}
+
+.laptop{
+    display: flex;
+    height: 250px;
+    padding-left: 60px;
+    padding-bottom: 5%;
+}
+
+.divLadoLaptop{
+    width: 300px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+.Alphascreenshot{
+    font-size:  40px;
+    color: #C2528C;
+    justify-content: center;
+    
+}
+
+.textocreenshot{
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.Marketing{
+    color: #F553A5;
+}
+
+.icono{
+    color: #F553A5;
+}
+
+.span1{
+    color: #000;
+}
+
+.h4planPrincing{
+    display: flex;
+    justify-content: center;
+    background-color: #1E172F;
+    color:aliceblue;
+    font-size: 300%;
+    align-items: end;
+    height: 80px;
+}
+
+.sec3{
+    background-color: #1E172F;
+    color:aliceblue;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ParrafoLoren{
+    width: 700px;
+    font-size: 150%;
+}
+
+.sec4{
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+    background-color: #1E172F;
+
+}
+
+.cont1{
+    height: 500px;
+    width: 270px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img1{
+    height: 80px;
+    width: 80px;
+}
+
+.live{
+    color: #F41486;
+    font-size: 130%;
+    margin-bottom: 10px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #F5F5F5;
+}
+
+.span{
+    font-size: 35px;
+}
+
+.free{
+    display: flex;
+}
+
+.ul2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.li2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list{
+    display: flex;
+    width: 270px;
+}
+
+.estrella{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.chulito{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.parrafoNulla{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.buttonSub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    width: 270px;
+    height: 50px;
+    margin-top: 60px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.Subcribete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F41486;
+    border: none;
+    border-radius: 5px;
+    color:#FFFFFF;
+    height: 40px;
+    width: 170px;
+    font-size: 18px;
+}
+
+.cont2{
+    height: 500px;
+    width: 270px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Standard{
+    color: #1E172F;
+    font-size: 130%;
+    margin-bottom: 10px;
+}
+
+.estrellaNegra{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.chulitoNegro{
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+}
+
+.equis_Negra{
+    width: 15px;
+    height: 15px;
+    margin-right: 40px;
+}
+
+.buttonSub2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    width: 270px;
+    height: 50px;
+    margin-top: 70px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.Subcribete2{
+    background-color: #1E172F;
+    border: none;
+    border-radius: 5px;
+    color:#FFFFFF;
+    height: 40px;
+    width: 170px;
+    font-size: 18px;
+}
+
+.cont3{
+    height: 500px;
+    width: 270px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer{
+    height: 100px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.span2{
+    color: #F41486;
+}
+
+.facebook{
+    width: 20px;
+    height: 20px;
+}
+
+.twitter{
+    width: 20px;
+    height: 20px;
+}
+
+.in{
+    width: 20px;
+    height: 20px;
+}
+
+.instagram{
+    width: 20px;
+    height: 20px;
+}
